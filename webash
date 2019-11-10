@@ -1,0 +1,11 @@
+#!/bin/bash
+echo “install telepot”
+sudo apt-get install pip
+sudo pip install telepot
+sudo pip install telepot –upgrade
+echo “update aplikasi”
+sudo apt-get update
+echo “upgrade aplikasi”
+sudo apt-get upgrade -y
+echo “dist upgrade aplikasi”
+sudo apt-get dist-upgrade -y
